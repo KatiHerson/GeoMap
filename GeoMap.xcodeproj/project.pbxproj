@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE70B7ED256D0A03008E40E4 /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE70B7EC256D0A03008E40E4 /* Silom.ttf */; };
+		CE70B7F7256D0EC1008E40E4 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70B7F6256D0EC1008E40E4 /* LocationVC.swift */; };
+		CE70B7FB256D0ED8008E40E4 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70B7FA256D0ED8008E40E4 /* MapVC.swift */; };
 		CEF55EA2256CE1E1008AAB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF55EA1256CE1E1008AAB34 /* AppDelegate.swift */; };
 		CEF55EA4256CE1E1008AAB34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF55EA3256CE1E1008AAB34 /* SceneDelegate.swift */; };
-		CEF55EA6256CE1E1008AAB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF55EA5256CE1E1008AAB34 /* ViewController.swift */; };
 		CEF55EA9256CE1E1008AAB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF55EA7256CE1E1008AAB34 /* Main.storyboard */; };
 		CEF55EAB256CE1ED008AAB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF55EAA256CE1ED008AAB34 /* Assets.xcassets */; };
 		CEF55EAE256CE1ED008AAB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF55EAC256CE1ED008AAB34 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE70B7EC256D0A03008E40E4 /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
+		CE70B7F6256D0EC1008E40E4 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		CE70B7FA256D0ED8008E40E4 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		CEF55E9E256CE1E1008AAB34 /* GeoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF55EA1256CE1E1008AAB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF55EA3256CE1E1008AAB34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEF55EA5256CE1E1008AAB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEF55EA8256CE1E1008AAB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEF55EAA256CE1ED008AAB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF55EAD256CE1ED008AAB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE70B7E9256D02A8008E40E4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE70B7EC256D0A03008E40E4 /* Silom.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CEF55E95256CE1E1008AAB34 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +68,11 @@
 		CEF55EA0256CE1E1008AAB34 /* GeoMap */ = {
 			isa = PBXGroup;
 			children = (
+				CE70B7E9256D02A8008E40E4 /* Fonts */,
 				CEF55EA1256CE1E1008AAB34 /* AppDelegate.swift */,
 				CEF55EA3256CE1E1008AAB34 /* SceneDelegate.swift */,
-				CEF55EA5256CE1E1008AAB34 /* ViewController.swift */,
+				CE70B7FA256D0ED8008E40E4 /* MapVC.swift */,
+				CE70B7F6256D0EC1008E40E4 /* LocationVC.swift */,
 				CEF55EA7256CE1E1008AAB34 /* Main.storyboard */,
 				CEF55EAA256CE1ED008AAB34 /* Assets.xcassets */,
 				CEF55EAC256CE1ED008AAB34 /* LaunchScreen.storyboard */,
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF55EAE256CE1ED008AAB34 /* LaunchScreen.storyboard in Resources */,
+				CE70B7ED256D0A03008E40E4 /* Silom.ttf in Resources */,
 				CEF55EAB256CE1ED008AAB34 /* Assets.xcassets in Resources */,
 				CEF55EA9256CE1E1008AAB34 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF55EA6256CE1E1008AAB34 /* ViewController.swift in Sources */,
 				CEF55EA2256CE1E1008AAB34 /* AppDelegate.swift in Sources */,
+				CE70B7FB256D0ED8008E40E4 /* MapVC.swift in Sources */,
 				CEF55EA4256CE1E1008AAB34 /* SceneDelegate.swift in Sources */,
+				CE70B7F7256D0EC1008E40E4 /* LocationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
